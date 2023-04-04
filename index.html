@@ -82,21 +82,152 @@
         </div>
        </div>
     </section>
-   
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__left">
+            <h2 class="about__title"><span class="subtitle__bg">_</span>About<span class="subtitle__bg">_</span>me</h2>
+            <p>I have 5 years of еxperience in web
+               development lorem ipsum dolor sit amet, 
+               consectetur adipiscing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore
+               magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris
+               nisi ut aliquip ex ea commodo consequat.
+               Duis aute irure dolor in reprehenderit in
+            </p>
+            <p>
+              Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat 
+              nulla pariatur. Excepteur sint occaecat 
+              officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="about__right">
+            <div class="progress">
+              <ul id="progress">
+                <li><p class="progress-bar html"><p><h4>// HTML</h4></li>
+                <li><p class="progress-bar css"></p><h4>// CSS</h4></li>
+                <li><p class="progress-bar javascript"></p><h4>// javaScript</h4></li>
+                <li><p class="progress-bar react"></p><h4>// React</h4></li>
+                <li><p class="progress-bar sass"></p><h4>// SASS</h4></li>
+                <li><p class="progress-bar bootstrap"></p><h4>// Bootstrap</h4></li>
+                <li><p class="progress-bar git"></p><h4>// Git/Github</h4></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="projects__title"><span class="subtitle__bg">_</span>Projects</h2>
+        <div class="projects__inner">
+          <div class="projects__item">
+            <h4 class="items__title">Project 1 <span class="title__bg">// _to-do list</span></h4>
+            <div class="projects__items">
+              <img class="items__img" src="../images/giphy.gif">
+              <p>Duis aute irure dolor in velit esse cillum dolore.</p>
+              <a class="projects__btn" href="https://amidrom.github.io/todo/" target="_blank">view-project</a>
+            </div>
+          </div>
+          <div class="projects__item">
+            <h4 class="items__title">Project 2 <span class="title__bg">// _landing page</span></h4>
+            <div class="projects__items">
+              <img class="items__img" src="../images/giphy.gif">
+              <p>Duis aute irure dolor in velit esse cillum dolore.</p>
+              <a class="projects__btn" href="amidrom.github.io/lamborghini/" target="_blank">view-project</a>
+            </div>
+          </div>
+          <div class="projects__item">
+            <h4 class="items__title">Project 3 <span class="title__bg">// _landing page</span></h4>
+            <div class="projects__items">
+              <img class="items__img" src="../images/giphy.gif">
+              <p>Duis aute irure dolor in velit esse cillum dolore.</p>
+              <a class="projects__btn" href="https://amidrom.github.io/gorgadze/" target="_blank">view-project</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="contact__me">
+      <div class="container">
+        <div class="form">
+          <form action="#" id="form" class="form__body">
+            <h1 class="form__title">Form</h1>
+            <div class="form__item">
+              <label for="formName" class="form__label">Name*</label>
+              <input id="formName" type="text" name="name" class="form__input _req" />
+            </div>
+            <div class="form__item">
+              <label for="formEmail" class="form__label">E-mail*</label>
+              <input id="formEmail" type="email" name="email" class="form__input _req _email" />
+            </div>
+            <div class="form__item">
+              <label for="formTel" class="form__label">Phone*</label>
+              <input id="formTel" type="tel" name="tel" class="form__input _req" />
+            </div>
+            <div class="options">
+              <div class="options__item">
+                <input id="retail" type="radio" name="trade" value="retail" class="options__input" />
+                <label for="retail" class="options__label"><span>l</span></label>
+              </div>
+              <div class="options__item">
+                <input id="wholesale" type="radio" checked name="trade" value="wholesale" class="options__input" />
+                <label for="wholesale" class="options__label"><span>r</span></label>
+              </div>
+            </div>
+            <div class="form__item">
+              <label for="formMessage" class="form__label">comment</label>
+              <textarea id="formMessage" name="message" class="form__input"></textarea>
+            </div>
+            <div class="form__item">
+              <p class="form__label">contry</p>
+              <select name="regions" id="" class="select">
+                <option value="Ukrain" selected>rg</option>
+                <option value="Europe">br</option>
+              </select>
+            </div>
+            <div class="form__item">
+              <p class="form__label">File</p>
+              <div class="file">
+                <div class="file__item">
+                  <input id="formImg" accept=".jpg, .png, .gif" type="file" name="image" class="file__input" />
+                  <button type="button" class="file__button">Select</button>
+                </div>
+                <div id="formPreview" class="file__preview"></div>
+              </div>
+              <div class="form__item">
+                <div class="checkbox">
+                  <input id="formAgreement" type="checkbox" name="aggreement" class="checkbox__input _req" />
+                  <label for="formAgreement" class="checkbox__label">
+                    <span>
+                      rab
+                      <a href="#">dog</a>
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="form__button">send</button>
+          </form>
+        </div>
+    </section>
+   </main>
     <footer class="footer"  id="contact__footer">
       <div class="contact__footer">
       <div class="footer__item">
-        <div class="footer__items"><img src="./images/mail-icon.svg"><p>// alibotros@gmail.com</p></div>
+        <div class="footer__items"><img src="../images/mail-icon.svg"><p>// alibotros@gmail.com</p></div>
         
       </div>
-        <div class="footer__items"><img src="/images/git.svg"><p>// amidrom</p></div>
+        <div class="footer__items"><img src="../images/git.svg"><p>// amidrom</p></div>
       </div>
     </footer>
-    </main>
+    
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/skilsbar.js"></script>
+  <script src="js/form.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
